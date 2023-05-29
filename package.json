@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "start": "ts-node-dev src/server.ts",
     "build": "prisma generate && next build",
     "dev": "ts-node-dev src/server.ts"
   },
