@@ -21,6 +21,7 @@
     "vercel": "^30.0.0"
   },
   "devDependencies": {
+    "@types/node": "^20.2.5",
     "nodemon": "^2.0.22",
     "typescript": "^5.0.4"
   }
