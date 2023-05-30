@@ -4,9 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "yarn dev",
-    "dev": "yarn ts-node-dev src/server.ts",
-    "build": "yarn tsc"
+    "dev": "yarn ts-node-dev src/server.ts"
   },
   "dependencies": {
     "@prisma/client": "^4.14.1",
