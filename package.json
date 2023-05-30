@@ -6,8 +6,8 @@
   "scripts": {
     "start": "node .",
     "dev": "ts-node-dev src/server.ts",
-    "build": "npm run tsc --init",
-    "compile": "tsc"
+    "build": "npm run tsc",
+    "tsc": "tsc"
   },
   "dependencies": {
     "@prisma/client": "^4.14.1",
