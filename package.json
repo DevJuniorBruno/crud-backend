@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "node .",
+    "start": "yarn dev",
     "dev": "ts-node-dev src/server.ts",
     "build": "npm run tsc",
     "tsc": "tsc"
