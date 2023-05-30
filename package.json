@@ -2,10 +2,9 @@
   "name": "back",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "module",
   "license": "MIT",
   "scripts": {
-    "start": "node .", 
+    "start": "node .",
     "dev": "ts-node-dev src/server.ts",
     "build": "npm run compile",
     "compile": "tsc"
