@@ -5,9 +5,8 @@
   "license": "MIT",
   "scripts": {
     "start": "yarn dev",
-    "dev": "ts-node-dev src/server.ts",
-    "build": "npm run tsc",
-    "tsc": "tsc"
+    "dev": "yarn ts-node-dev src/server.ts",
+    "build": "yarn tsc"
   },
   "dependencies": {
     "@prisma/client": "^4.14.1",

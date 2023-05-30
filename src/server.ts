@@ -25,4 +25,4 @@ app.use((err: Error, req: Request, res: Response, next: NextFunction) =>{
 
 })
 
-app.listen(process.env.PORT || 5432, ()=> console.log("server on"))
+app.listen(process.env.PORT || 3000, ()=> console.log("server on"))
