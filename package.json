@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node .",
     "dev": "ts-node-dev src/server.ts",
-    "build": "npm run compile",
+    "build": "npm run tsc --init",
     "compile": "tsc"
   },
   "dependencies": {
